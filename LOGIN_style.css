@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column; /* Allow stacking */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space between header and login container */
+}
+
+.logo {
+    max-width: 120px; /* Set a max width for the logo */
+    height: auto;     /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between logo and heading */
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 60%;
+    padding: 10px;
+    background-color: #b307079c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b307079c;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
